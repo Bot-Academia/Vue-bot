@@ -1,0 +1,25 @@
+{
+  "name": "vue-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bot-academia/Vue-bot.git"
+  },
+  "keywords": [
+    "twiiter"
+  ],
+  "author": "Bot-Academia",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bot-academia/Vue-bot/issues"
+  },
+  "homepage": "https://github.com/bot-academia/Vue-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
