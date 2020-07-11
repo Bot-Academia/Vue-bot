@@ -4,7 +4,8 @@
   "description": "A twitter bot for Vue.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,11 @@
   },
   "homepage": "https://github.com/bot-academia/Vue-bot#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "12.18.0",
+    "npm": "6.14.5"
   }
 }
