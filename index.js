@@ -1,21 +1,22 @@
+require("dotenv").config();
 const Twit = require('twit');
 
 const T = new Twit({
 
-  consumer_key: '',
+  consumer_key: process.env.consumer_key,
 
-  consumer_secret: '',
+  consumer_secret: process.env.consumer_secret,
 
-  access_token: '',
+  access_token: process.env.access_token,
 
-  access_token_secret: ''
+  access_token_secret: process.env.access_token_secret
 
 });
 
 
 // start stream and track tweets
 
-const stream = T.stream('statuses/filter', {track: '#vue'});
+const stream = T.stream('statuses/filter', {track: ['#vue','#vuejs','#vue.js','#Vue.js','#Vuejs','#vuex','#vuetify']});
 
 
 // use this to log errors from requests
