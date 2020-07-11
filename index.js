@@ -16,7 +16,7 @@ const T = new Twit({
 
 // start stream and track tweets
 
-const stream = T.stream('statuses/filter', {track: ['#vue','#vuejs','#vue.js','#Vue.js','#Vuejs','#vuex','#vuetify']});
+const stream = T.stream('statuses/filter', {track: ['#vue','#vuejs','#vue.js','#Vue.js','#Vuejs','#vuex','#vuetify','#Vue']});
 
 
 // use this to log errors from requests
