@@ -11,7 +11,7 @@ env:
 on:
   schedule:
     # every 10 minutes the job will run
-    - cron: "*/10 * * * *"
+    - cron: "0 */6 * * *"
   push:
     branches:
       - master
