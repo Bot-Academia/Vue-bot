@@ -16,7 +16,7 @@ const T = new Twit({
 
 // start stream and track tweets
 
-const stream = T.stream('statuses/filter', {track: ['#vue','#vuejs','#vue.js','#Vue.js','#Vuejs','#vuex','#vuetify','#Vue','#nuxt','#nuxtjs','#vuematerial','#quasarframework','#quasarjs','#gridsome','#vuepress','#vuesax','#bootstrapvue','#mevn','#vueland','#vuemeetup','#vueconf','#vuenext','#vue3','#vuerouter','#vitejs','#VitePress','#Nuxt3','#Vuestorefront','#VDom','#vuenative','#nativescriptvue']});
+const stream = T.stream('statuses/filter', {track: ['#sanskrit']});
 
 
 // use this to log errors from requests
