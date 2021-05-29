@@ -16,7 +16,7 @@ const T = new Twit({
 
 // start stream and track tweets
 
-const stream = T.stream('statuses/filter', {track: ['#sanskrit']});
+const stream = T.stream('statuses/filter', {track: ['#sanskrit','#sanskritphrases','#samskrit']});
 
 
 // use this to log errors from requests
